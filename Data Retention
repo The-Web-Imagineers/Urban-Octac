@@ -1,0 +1,63 @@
+For each of these deletion scenarios, the following table shows the maximum data retention period, by data category and classification:
+
+Data Category	Data Classification	Description	Examples	Retention Period
+Customer Data	Customer Content	Content directly provided/created by admins and users
+
+Includes all text, sound, video, image files, and software created and stored in Microsoft data centers when using the services in Microsoft 365	Examples of the most commonly used Microsoft 365 applications that allow users to author data include Word, Excel, PowerPoint, Outlook, and OneNote
+
+Customer content also includes customer-owned/provided secrets (passwords, certificates, encryption keys, storage keys)	Active Deletion Scenario: at most 30 days
+
+Passive Deletion Scenario: at most 180 days
+Customer Data	End User Identifiable Information (EUII)	Data that identifies or could be used to identify the user of a Microsoft service. EUII does not contain Customer content	User name or display name (DOMAIN\UserName)
+
+User principal name (name@domain)
+
+User-specific IP addresses	Active Deletion Scenario: at most 180 days (only a tenant administrator action)
+
+Passive Deletion Scenario: at most 180 days
+Personal Data
+(data not included in Customer Data)	End User Pseudonymous Identifiers (EUPI)	An identifier created by Microsoft tied to the user of a Microsoft service. When combined with other information, such as a mapping table, EUPI identifies the end user
+
+EUPI does not contain information uploaded or created by the customer	User GUIDs, PUIDs, or SIDs
+
+Session IDs	Active Deletion Scenario: at most 30 days
+
+Passive Deletion Scenario: at most 180 days
+Subscription Retention
+In the term of an active subscription, a subscriber can access, extract, or delete customer data stored in Microsoft 365. If a paid subscription ends or is terminated, Microsoft retains customer data stored in Microsoft 365 in a limited-function account for 90 days to enable the subscriber to extract the data. After the 90-day retention period ends, Microsoft disables the account and deletes the customer data. No more than 180 days after expiration or termination of a subscription to Microsoft 365, Microsoft disables the account and deletes all customer data from the account. Once the maximum retention period for any data has elapsed, the data is rendered commercially unrecoverable.
+
+For a free trial, your account moves into a grace status for 30 days in most countries and regions. During this grace period, you can purchase Microsoft 365. If you decide not to buy Microsoft 365, you can either cancel your trial or let the grace period expire, and your trial account information and data is deleted.
+
+Related Links
+Data-bearing device destruction
+Immutability in Office 365
+Exchange Online Data Deletion
+SharePoint Online Data Deletion
+Microsoft Defender for Endpoint and Defender for Business data storage and privacy
+Feedback
+Was this page helpful?
+
+Additional resources
+Training
+
+Module
+
+Understand Microsoft 365 privacy - Training
+Learn about Microsoft 365 privacy standards, the reasons we have them in place, and how they differentiate Microsoft in protecting and respecting customer data.
+
+Certification
+
+Microsoft 365 Certified: Enterprise Administrator Expert - Certifications
+On September 6, 2023, the Microsoft 365 Certified: Enterprise Administrator Expert certification will be renamed to Microsoft 365 Certified: Administrator Expert. If you’re an administrator who deploys and manages Microsoft 365 and performs Microsoft 365 tenant-level implementation and administration of cloud and hybrid environments, this certification is designed for you.
+
+Documentation
+
+Data immutability in Microsoft 365 - Microsoft Service Assurance
+Learn how Microsoft 365 preserves data in discoverable form to address regulatory compliance, internal governance requirements, and litigation risks.
+
+Privacy & data management overview - Microsoft Service Assurance
+Learn about privacy in Microsoft 365
+
+Microsoft 365 SharePoint Online Data Deletion - Microsoft Service Assurance
+Learn how data deletion works in SharePoint Online, such as where deleted content is stored and for how long.
+
